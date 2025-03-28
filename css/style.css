@@ -1,0 +1,30 @@
+.nav-top{
+    background-color: #1859afef !important;
+}
+
+.nav-link{
+    color: white !important;
+    background-color: rgb(3, 223, 223) !important;
+    margin: 0.3em !important;
+    border-radius: 0.3em !important;
+    font-weight: bold !important;
+    
+}
+
+.btn-primary{
+    color: white !important;
+    background-color: rgb(3, 223, 223) !important;
+    font-weight: bold !important;
+    border-radius: 0.3em !important;
+    
+} 
+
+footer{
+    background-color: rgba(26, 97, 190, 0.829) !important;
+    padding: 1em !important;
+    color: white !important;
+    text-align: center !important;
+    
+}
+
+
