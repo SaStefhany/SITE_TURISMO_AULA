@@ -17,7 +17,7 @@
     font-weight: bold !important;
     border-radius: 0.3em !important;
     
-} 
+}
 
 footer{
     background-color: rgba(26, 97, 190, 0.829) !important;
@@ -27,4 +27,28 @@ footer{
     
 }
 
+.divisao{
+    background-color: #1859afef !important;
+    text-align: center !important;
+    color: white !important;
+    padding: 2em !important;
 
+}
+
+.sec-pacotes{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin-bottom: 1% !important;
+}
+  
+.card{
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+
+}
+.sec-contato{
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}

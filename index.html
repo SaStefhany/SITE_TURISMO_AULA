@@ -13,30 +13,30 @@
     <header>
         <nav class="navbar navbar-expand-sm nav-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="javascript:void(0)"></a>
-                <img src="img/site.jpg" alt="turismo" width="2%">
+                <a href="#"><img src="img/site.jpg" width="50px" style="border-radius: 50%;" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Home</a>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Pacotes</a>
+                            <a class="nav-link" href="#pacotes">Pacotes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0)">Contatos</a>
+                            <a class="nav-link" href="#contatos">Contatos</a>
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Pesquisar">
+                        <input class="form-control me-2" type="text" placeholder="Pesquisar...">
                         <button class="btn btn-primary" type="button">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
+        
     </header>
     <main>
         <!-- Carousel -->
@@ -66,8 +66,8 @@
                         <source src="video/Jalapão 4K UHD - Tocantins Brasil.mp4" type="video/mp4">
                     </video>
                 </div>
-            </div>
 
+            </div>
 
             <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -77,8 +77,79 @@
                 <span class="carousel-control-next-icon"></span>
             </button>
         </div>
+        <!--Divisão-->
+        <div class="container-fluid divisao">
+            <h2>Conheça o Tocantins</h2>
+        </div>
+
+        <!--Pacotes-->
+        <section class=" row sec-pacotes">
+            <div class="card col-3" style="width:320px">
+                <img class="card-img-top" src="img/Jal.webp" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Jalapão</h4>
+                    <p class="card-text">O Jalapão é uma região do estado do Tocantins, Brasil, conhecida por suas belezas, como fervedouros, dunas e cachoeiras.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-3" style="width:320px">
+                <img class="card-img-top" src="img/ilha do bananal.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Ilha do babanal</h4>
+                    <p class="card-text">A Ilha do Bananal é extremamente importante pela sua diversidade ambiental e por ser uma área de habitação indígena. </p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-3" style="width:320px">
+                <img class="card-img-top" src="img/Ponte.jpg" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Ponte alta</h4>
+                    <p class="card-text">A ponte alta é um municipio do estado do Tocantins que abriga diversas atrações como: A serra do estrondo, a praia do funil e o musel histórico.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+            <div class="card col-3" style="width:320px">
+                <img class="card-img-top" src="img/serras.webp" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Serras gerais </h4>
+                    <p class="card-text">As Serras Gerais do Tocantins são a maior cadeia de serras do Brasil, contendo diversas atrações culturais, como lagos córregos e etc.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
 
 
+        </section>
+
+         <!--Divisão-->
+         <div class="container-fluid divisao">
+            <h2>Fale Conosco</h2>
+        </div>
+        <!--Contatos-->
+        <section class="row sec-contato">
+            <div class="col-sm-6">
+                    <form action="">
+                        <div class="mb-3 mt-3">
+                          <label for="nome" class="form-label">Nome:</label>
+                          <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" name="nome">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="text" class="form-control" id="email" placeholder="Informe seu email" name="email">
+                        </div>
+                        <div class="mb-3">
+                        <label for="comment">Mensagem:</label>
+                        <textarea class="form-control" rows="S" id="comment" name="text"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                      </form>
+                    
+                    </div>
+            </div>
+                    <div class="col-sm-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.0347885938772!2d-48.33687982408894!3d-10.17782768993685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9324cb714b8f8f1f%3A0xb051fee550c22336!2sFedera%C3%A7%C3%A3o%20do%20Com%C3%A9rcio%20de%20Bens%2C%20Servi%C3%A7os%20e%20Turismo%20do%20Estado%20do%20Tocantins%20-%20Fecom%C3%A9rcio!5e0!3m2!1spt-BR!2sbr!4v1743534840122!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+        </section>
     </main>
 
     <footer class="fixed-bottom">
